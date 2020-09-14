@@ -1,0 +1,22 @@
+.citation{
+  background-image:url("../images/bg-citation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding:100px 0 142px;
+}
+
+.citation .conteneur{
+  display: flex;
+  flex-direction: column;
+
+  color:var(--couleur-blanc);
+}
+.citation .conteneur h3{
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin:0;
+}

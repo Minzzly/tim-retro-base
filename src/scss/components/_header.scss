@@ -1,0 +1,10 @@
+.header-principal{
+  background:var(--couleur-noir);
+
+  padding:20px 0;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}

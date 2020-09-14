@@ -1,0 +1,25 @@
+.conteneur .cartes{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cartes .carte{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width:30%;
+  height:367px;
+  margin-top:45px;
+  padding:20px;
+
+  background-color: var(--couleur-blanc);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+img{
+  width:151px;
+  height:151px;
+}
